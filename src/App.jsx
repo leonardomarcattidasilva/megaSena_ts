@@ -18,8 +18,8 @@ const App = () => {
         <div>
           <Numbers />
           <div>
-            <Button className="btn btn-success" onClick={go} txt="Sortear"/>
-            <Button className="btn btn-danger" onClick={clean} txt="Limpar"/>
+            <Button className={`btn btn-success ${styles.button}`} onClick={go} txt="Sortear"/>
+            <Button className={`btn btn-danger ${styles.button}`} onClick={clean} txt="Limpar"/>
           </div>
         </div>
       </div>
